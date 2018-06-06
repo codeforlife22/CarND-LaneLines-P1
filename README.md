@@ -20,7 +20,7 @@ My pipeline consisted of 5 steps.
 4. Find point of interest polygon
 5. Draw hough lines. 
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by average the slopes and intercepts of hough lines of left and right lanes, respectively. Then the extreme points of the point-of-intereset polygon are extroplated to draw the lines.  
+In order to draw a single line on the left and right lanes, I modified the draw_lines() function by averaging the slopes and intercepts of hough lines of left and right lanes, respectively. Then the extreme points of the point-of-intereset polygon are extroplated to draw the lines.  
 
 ![alt text](./test_images_output/solidYellowCurve.jpg)
 ![alt text](./test_images_output/solidWhiteCurve.jpg)
